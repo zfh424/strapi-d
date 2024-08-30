@@ -12,21 +12,23 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.25.8",
-    "@strapi/plugin-users-permissions": "4.25.8",
-    "@strapi/plugin-i18n": "4.25.8",
     "@strapi/plugin-cloud": "4.25.8",
-    "pg": "8.8.0",
+    "@strapi/plugin-i18n": "4.25.8",
+    "@strapi/plugin-users-permissions": "4.25.8",
+    "@strapi/strapi": "4.25.8",
+    "@vercel/postgres": "^0.9.0",
+    "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "sharp": "^0.33.5",
     "styled-components": "5.3.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "99e0a295-0bb6-435c-a7e3-4834cde4276c"
+    "uuid": "d4f26e6c-c7bb-4b87-8341-d2432c955cbf"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
